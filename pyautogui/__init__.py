@@ -817,8 +817,8 @@ def _mouseMoveDrag(moveOrDrag, x, y, xOffset, yOffset, duration, tween=linear, b
     width, height = size()
 
     # Make sure x and y are within the screen bounds.
-    x = max(0, min(x, width - 1))
-    y = max(0, min(y, height - 1))
+#     x = max(0, min(x, width - 1))
+#     y = max(0, min(y, height - 1))
 
     # If the duration is small enough, just move the cursor there instantly.
     steps = [(x, y)]
